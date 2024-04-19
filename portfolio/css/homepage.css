@@ -1,0 +1,100 @@
+body {
+  text-align: center;
+  background-color: #02243D;
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+  background-color: #2E7299;
+  float: right;
+}
+.navbar ol {
+  float: left;
+  width: 29%;
+}
+.navbar ol a {
+  text-decoration: none;
+}
+.navbar ol a:visited {
+  color: white;
+}
+.navbar ol a:link {
+  color: white;
+}
+.navbar ol a:hover {
+  color: gold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "title title" "para para" "button button" "title-two title-two" "para-two para-two" "button-two button-two";
+  width: 100%;
+}
+.grid-container h1 {
+  color: white;
+}
+.grid-container p {
+  color: white;
+}
+.grid-container img {
+  color: white;
+}
+.grid-container .title {
+  grid-area: title;
+  text-align: center;
+  width: 99%;
+  height: 99%;
+}
+.grid-container .para {
+  grid-area: para;
+  font-size: x-large;
+  width: 99%;
+  height: 99%;
+}
+.grid-container .img {
+  grid-area: para;
+  width: 99%;
+  height: 300px;
+}
+.grid-container .title-two {
+  grid-area: title-two;
+  text-align: center;
+  width: 99%;
+  height: 99%;
+}
+.grid-container .para-two {
+  grid-area: para-two;
+  font-size: x-large;
+  width: 99%;
+  height: 99%;
+}
+.grid-container .img-two {
+  grid-area: para-two;
+  width: 99%;
+  height: 300px;
+}
+.grid-container .to-img {
+  grid-area: button;
+}
+.grid-container .to-img:hover {
+  background-color: darkgray;
+}
+.grid-container .to-para {
+  grid-area: button;
+}
+.grid-container .to-para:hover {
+  background-color: darkgray;
+}
+.grid-container .to-img2 {
+  grid-area: button-two;
+}
+.grid-container .to-img2:hover {
+  background-color: darkgray;
+}
+.grid-container .to-para2 {
+  grid-area: button-two;
+}
+.grid-container .to-para2:hover {
+  background-color: darkgray;
+}/*# sourceMappingURL=homepage.css.map */

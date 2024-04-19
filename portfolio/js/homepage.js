@@ -1,0 +1,30 @@
+$('.img').fadeToggle()
+$('.to-para').fadeToggle()
+$('.img-two').fadeToggle()
+$('.to-para2').fadeToggle()
+$(document).ready(function(){
+    $('.to-img').on('click', function(){
+        $('.para').fadeToggle(1000)
+        $('.img').fadeToggle(2000)
+        $('.to-img').fadeToggle(1000)
+        $('.to-para').fadeToggle(2000)
+    })
+    $('.to-para').on('click', function(){
+        $('.img').fadeToggle(1000)
+        $('.para').fadeToggle(2000)
+        $('.to-para').fadeToggle(1000)
+        $('.to-img').fadeToggle(2000)
+    })
+    $('.to-img2').on('click', function(){
+        $('.para-two').fadeToggle(1000)
+        $('.img-two').fadeToggle(2000)
+        $('.to-img2').fadeToggle(1000)
+        $('.to-para2').fadeToggle(2000)
+    })
+    $('.to-para2').on('click', function(){
+        $('.img-two').fadeToggle(1000)
+        $('.para-two').fadeToggle(2000)
+        $('.to-para2').fadeToggle(1000)
+        $('.to-img2').fadeToggle(2000)
+    })
+})

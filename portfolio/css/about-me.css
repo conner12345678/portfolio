@@ -1,0 +1,112 @@
+body {
+  background-color: #02243D;
+  text-align: center;
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+  background-color: #2E7299;
+  float: right;
+}
+.navbar ol {
+  float: left;
+  width: 29%;
+}
+.navbar ol a {
+  text-decoration: none;
+}
+.navbar ol a:visited {
+  color: white;
+}
+.navbar ol a:link {
+  color: white;
+}
+.navbar ol a:hover {
+  color: gold;
+}
+
+.grid-container1 {
+  display: grid;
+  grid-template-areas: "title title title" "para para para" ". img .";
+  width: 100%;
+  position: absolute;
+}
+.grid-container1 h1 {
+  color: white;
+}
+.grid-container1 p {
+  color: white;
+  font-size: x-large;
+}
+.grid-container1 img {
+  color: white;
+}
+.grid-container1 .title1 {
+  grid-area: title;
+}
+.grid-container1 .para1 {
+  grid-area: para;
+}
+.grid-container1 .img1 {
+  grid-area: img;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-areas: "title title title" "para para para" ". img img";
+  width: 100%;
+  position: absolute;
+}
+.grid-container2 h1 {
+  color: white;
+}
+.grid-container2 p {
+  color: white;
+  font-size: x-large;
+}
+.grid-container2 img {
+  color: white;
+}
+.grid-container2 .title2 {
+  grid-area: title;
+}
+.grid-container2 .para2 {
+  grid-area: para;
+}
+.grid-container2 .img2 {
+  grid-area: img;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-areas: "title title title" "para para para" ". img .";
+  width: 100%;
+  position: absolute;
+}
+.grid-container3 h1 {
+  color: white;
+}
+.grid-container3 p {
+  color: white;
+  font-size: x-large;
+}
+.grid-container3 img {
+  color: white;
+}
+.grid-container3 .title3 {
+  grid-area: title;
+}
+.grid-container3 .para3 {
+  grid-area: para;
+}
+.grid-container3 .img3 {
+  grid-area: img;
+}
+
+button {
+  position: relative;
+}
+button:hover {
+  background-color: darkgray;
+}/*# sourceMappingURL=about-me.css.map */

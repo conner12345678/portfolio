@@ -1,0 +1,92 @@
+#download {
+  background-color: yellow;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+
+button a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  text-align: center;
+}
+
+.webLink {
+  font-size: xx-large;
+}
+
+.downloadButton {
+  width: 50%;
+  height: 50px;
+  background-color: red;
+  border: 4px solid black;
+}
+.downloadButton:hover {
+  background-color: darkred;
+}
+.downloadButton a {
+  font-size: x-large;
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+  background-color: #2E7299;
+  float: right;
+}
+.navbar ol {
+  float: left;
+  width: 29%;
+}
+.navbar ol a {
+  text-decoration: none;
+}
+.navbar ol a:visited {
+  color: white;
+}
+.navbar ol a:link {
+  color: white;
+}
+.navbar ol a:hover {
+  color: gold;
+}
+
+.grid-container {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  margin: auto;
+}
+.grid-container h3 {
+  color: rgb(1, 158, 220);
+}
+.grid-container .downloadButton {
+  width: 50%;
+}
+.grid-container .resume {
+  display: grid;
+  grid-template-areas: "objective skills" "edication certification" "experience .";
+  width: 100%;
+}
+.grid-container .resume .objective {
+  grid-area: objective;
+}
+.grid-container .resume .edication {
+  grid-area: edication;
+}
+.grid-container .resume .experience {
+  grid-area: experience;
+}
+.grid-container .resume .skills {
+  grid-area: skills;
+}
+.grid-container .resume .certification {
+  grid-area: certification;
+}/*# sourceMappingURL=resume.css.map */
