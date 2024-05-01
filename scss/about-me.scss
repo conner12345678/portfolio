@@ -1,0 +1,116 @@
+body{
+    background-color: #02243D;
+    text-align: center;
+}
+.navbar{
+    display: block;
+    width: 100%;
+    background-color: #2E7299;
+    float: right;
+    ol{
+        float: left;
+        width: 29%;
+        a{
+            text-decoration: none;
+            &:visited{
+                color: white;
+            }
+            &:link{
+                color: white;
+            }
+            &:hover{
+                color: gold;
+            }
+        }
+    }
+}
+.grid-container1{
+    display: grid;
+    grid-template-areas: 
+    'title title title'
+    'para para para'
+    '. img .';
+    width: 100%;
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+        font-size: x-large;
+    }
+    img{
+        color: white;
+    }
+    .title1{
+        grid-area: title;
+    }
+    .para1{
+        grid-area: para;
+    }
+    .img1{
+        grid-area: img;
+    }
+    position: absolute;
+}
+.grid-container2{
+    display: grid;
+    grid-template-areas: 
+    'title title title'
+    'para para para'
+    '. img img';
+    width: 100%;
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+        font-size: x-large;
+    }
+    img{
+        color: white;
+    }
+    .title2{
+        grid-area: title;
+    }
+    .para2{
+        grid-area: para;
+    }
+    .img2{
+        grid-area: img;
+    }
+    position: absolute;
+}
+.grid-container3{
+    display: grid;
+    grid-template-areas: 
+    'title title title'
+    'para para para'
+    '. img .';
+    width: 100%;
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+        font-size: x-large;
+    }
+    img{
+        color: white;
+    }
+    .title3{
+        grid-area: title;
+    }
+    .para3{
+        grid-area: para;
+    }
+    .img3{
+        grid-area: img;
+    }
+    position: absolute;
+}
+button{
+    &:hover{
+        background-color: darkgray;
+    }
+    position: relative;
+}

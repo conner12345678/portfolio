@@ -1,0 +1,104 @@
+body{
+    text-align: center;
+    background-color: #02243D;
+}
+.navbar{
+    display: block;
+    width: 100%;
+    background-color: #2E7299;
+    float: right;
+    ol{
+        float: left;
+        width: 29%;
+        a{
+            text-decoration: none;
+            &:visited{
+                color: white;
+            }
+            &:link{
+                color: white;
+            }
+            &:hover{
+                color: gold;
+            }
+        }
+    }
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'title title'
+    'para para'
+    'button button'
+    'title-two title-two'
+    'para-two para-two'
+    'button-two button-two';
+    width: 100%;
+    h1{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    img{
+        color: white;
+    }
+    .title{
+        grid-area: title;
+        text-align: center;
+        width: 99%;
+        height: 99%;
+    }
+    .para{
+        grid-area: para;
+        font-size: x-large;
+        width: 99%;
+        height: 99%;
+    }
+    .img{
+        grid-area: para;
+        width: 99%;
+        height: 300px;
+    }
+    .title-two{
+        grid-area: title-two;
+        text-align: center;
+        width: 99%;
+        height: 99%;
+    }
+    .para-two{
+        grid-area: para-two;
+        font-size: x-large;
+        width: 99%;
+        height: 99%;
+    }
+    .img-two{
+        grid-area: para-two;
+        width: 99%;
+        height: 300px;
+    }
+    .to-img{
+        grid-area: button;
+        &:hover{
+            background-color: darkgray;
+        }
+    }
+    .to-para{
+        grid-area: button;
+        &:hover{
+            background-color: darkgray;
+        }
+    }
+    .to-img2{
+        grid-area: button-two;
+        &:hover{
+            background-color: darkgray;
+        }
+    }
+    .to-para2{
+        grid-area: button-two;
+        &:hover{
+            background-color: darkgray;
+        }
+    }
+}
